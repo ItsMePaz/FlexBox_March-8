@@ -1,0 +1,54 @@
+* {
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    color: #fff;
+    background-color: #5995da;
+    padding: 5px 0;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 7000px;
+    align-items: center;
+    
+}
+
+.first-navigation {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.one,.two,.three,.four,.five,.six {
+    background-color: white;
+    color: blue;
+    padding: 5px;
+}
+
+
+.head-image {
+    padding:20px;
+    background-color: rgb(154, 86, 86);
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.second-navigation {
+
+
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+}
