@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+.notif-box, div, h2, button, p, form{
+    background-color: white;
+}
+
+.notif-box {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    padding-bottom: 20px;
+    border: 0px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 35%;
+    bottom: 34%;
+    left: 30%;
+    right: 30%;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px;
+    color: blue;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 8px;
+} 
+
+.continue:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.close {
+    position: relative;
+    top: 0px;
+    right: 10px;
+}
+
+.close:hover {
+    cursor: pointer;
+}
